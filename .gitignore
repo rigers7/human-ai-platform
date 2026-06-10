@@ -1,0 +1,54 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables (only local overrides)
+.env.local
+.env
+
+# Database backups/dumps can contain user data, auth tokens, or secrets.
+*.backup
+*.dump
+*.sql.gz
+db_cluster-*.sql
+db_cluster-*.backup
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+checkpoints.sqlite
+
+# Virtual environments
+.venv/
+
+# OS
+.DS_Store
+
+# Lock files (optional — remove if you want to track uv.lock)
+uv.lock
